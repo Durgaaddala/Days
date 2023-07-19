@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <style>
+        body{
+            margin-top:100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="https://static3.depositphotos.com/1000964/119/i/600/depositphotos_1199950-stock-photo-beautiful-sunrise.jpg " id="day" width="100" height="150">
+   <div>
+    <button onclick="morning()">morning</button>
+    <button onclick="afternoon()">afternoon</button>
+    <button onclick="night()">night</button>
+   </div>
+   <script>
+    function morning(){
+        document.getElementById("day").src="https://static3.depositphotos.com/1000964/119/i/600/depositphotos_1199950-stock-photo-beautiful-sunrise.jpg "
+    }
+    function afternoon(){
+          document.getElementById("day").src="https://img.fotocommunity.com/red-sun-afternoon-dd0ab315-a6a6-4b8f-b16b-ed676b2dddd8.jpg?height=1080"
+    }
+    function night(){
+        document.getElementById("day").src="https://wallpapers.com/images/featured/night-9nngmbvce2sn0x9h.jpg"
+    }
+   </script>
+</center>
+</body>
+</html>
